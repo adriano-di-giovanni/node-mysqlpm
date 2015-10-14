@@ -1,0 +1,23 @@
+{
+  "name": "node-mysqlpm",
+  "version": "0.1.0",
+  "description": "A MySQL partition manager for Node.js",
+  "main": "lib/MySQLPartitionManager.js",
+  "scripts": {
+    "test": "mocha --reporter spec --timeout 60s test"
+  },
+  "author": "Adriano Di Giovanni <me@adrianodigiovanni.com> (http://adrianodigiovanni.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "async": "~1.2.1",
+    "mysql": "~2.7.0",
+    "node-bash-template": "~0.1.0",
+    "node-raise": "~0.1.0",
+    "node-sql-template": "~0.2.0",
+    "underscore": "~1.8.3"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  }
+}
