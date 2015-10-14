@@ -19,5 +19,22 @@
   "devDependencies": {
     "chai": "*",
     "mocha": "*"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriano-di-giovanni/node-mysqlpm.git"
+  },
+  "keywords": [
+    "node",
+    "mysql",
+    "partition",
+    "manager"
+  ],
+  "bugs": {
+    "url": "https://github.com/adriano-di-giovanni/node-mysqlpm/issues"
+  },
+  "homepage": "https://github.com/adriano-di-giovanni/node-mysqlpm#readme"
 }
