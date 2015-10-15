@@ -2,6 +2,10 @@
 
 A Node.js library for streamlining the backup and restore of MySQL partitions.
 
+## Alpha
+
+This library is in alpha. It works but it's not tested extensively.
+
 ## Installation
 
 ```
