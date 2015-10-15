@@ -29,7 +29,8 @@ var
             host: 'localhost',
             user: 'root'
         },
-        backupDir: path.resolve(__dirname, './backup') // must be on the same machine that hosts MySQL instance
+        backupDir: path.resolve(__dirname, './backup') // must be on the same machine that hosts MySQL instance,
+        isDebug: true
     },
     pm = MySQLPartitionManager.forge(options);
 
