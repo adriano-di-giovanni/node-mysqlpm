@@ -4,7 +4,7 @@ A Node.js library for streamlining the backup and restore of MySQL partitions.
 
 ## Alpha
 
-This library is in alpha. It works but it's not tested extensively.
+This library is in alpha. It works but **it hasn't been tested extensively**. Successful tests run on Mac OSX, Ubuntu/Debian using MySQL 5.6.x.
 
 ## Installation
 
