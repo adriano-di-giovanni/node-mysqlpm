@@ -11,4 +11,4 @@ if [ ! -d ${TO} ]; then
     exit 1
 fi
 
-cp --preserve --verbose ${FROM} ${TO}
+cp -pv ${FROM} ${TO}
