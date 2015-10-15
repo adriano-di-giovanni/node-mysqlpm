@@ -39,6 +39,7 @@ pm.backup({
     table: 'table_name',
     partition: 'partition_name'
 }, function (error) {
+    pm.end(); // release connection pool
     if (error) {
         throw error;
     }
@@ -49,6 +50,7 @@ pm.restore({
     table: 'table_name',
     partition: 'partition_name'
 }, function (error) {
+    pm.end(); // release connection pool
     if (error) {
         throw error;
     }
