@@ -1,5 +1,7 @@
 # MySQL Partition Manager
 
+A Node.js library for streamlining the backup and restore of MySQL partitions.
+
 ## Installation
 
 ```

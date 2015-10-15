@@ -1,7 +1,7 @@
 {
   "name": "node-mysqlpm",
   "version": "0.1.0",
-  "description": "A MySQL partition manager for Node.js",
+  "description": "A Node.js library for streamlining the backup and restore of MySQL partitions",
   "main": "lib/MySQLPartitionManager.js",
   "scripts": {
     "test": "mocha --reporter spec --timeout 60s test"
