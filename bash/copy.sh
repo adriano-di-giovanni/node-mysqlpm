@@ -12,3 +12,8 @@ if [ ! -d ${TO} ]; then
 fi
 
 cp -pv ${FROM} ${TO}
+
+FILE="${TO}/`basename ${FROM}`"
+
+chown mysql:mysql ${FILE}
+chmod 660 ${FILE}
